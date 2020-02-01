@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:ah_mobile/screens/home_screen.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
@@ -12,14 +14,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Authors' Haven",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Authors' Haven"),
-        ),
-        body: Center(
-          child: Text("Welcome to Authors' Haven"),
-        ),
-      ),
+      home: HomeScreen(),
     );
   }
 }
