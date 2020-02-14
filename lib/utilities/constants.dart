@@ -8,3 +8,5 @@ const kHeroTextStyle = TextStyle(
 const kIconColor = Color(0xFF0645F0);
 
 const kCTAbuttonColor = Color(0xFF3157BE);
+
+const baseUrl = 'http://localhost:4000/api/v1';

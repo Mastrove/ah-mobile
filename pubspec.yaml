@@ -4,13 +4,22 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  http:
+  provider:
+  validators:
+  image_picker:
+  video_player:
+  image_cropper:
+  percent_indicator: "^2.1.1"
+  tuple: ^1.0.3
+  basic_utils: ^2.4.8
 
 dev_dependencies:
   flutter_test:
@@ -22,6 +31,7 @@ flutter:
 
   assets:
   - images/
+  - config/
 
   fonts:
     - family: Inika
