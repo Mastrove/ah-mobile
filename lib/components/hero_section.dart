@@ -26,9 +26,16 @@ class HeroSection extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Icon(
-                Icons.menu,
-                color: kIconColor,
+              MaterialButton(
+                child: Icon(
+                  Icons.menu,
+                  color: kIconColor,
+                ),
+                padding: EdgeInsets.all(0),
+                minWidth: 8,
+                onPressed: () {
+                  Scaffold.of(context).openDrawer();
+                },
               ),
               Text(
                 "Authors' Haven",
